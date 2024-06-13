@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyCalculator" parent="Base.Theme.MyCalculator" />
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingVertical">10dp</item>
+    </style>
+    <style name="CustomButtonStyleBlue" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:background">@drawable/button_background_blue</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingVertical">10dp</item>
+    </style>
+</resources>
